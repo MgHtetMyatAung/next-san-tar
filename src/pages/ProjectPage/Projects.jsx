@@ -6,6 +6,7 @@ import shoppingImg from "../../assets/imgs/mms-mini-shopping.png";
 import putuuImg from "../../assets/imgs/putuu-website.png";
 import easyImg from "../../assets/imgs/easybank-website.png";
 import apiImg from "../../assets/imgs/api.png";
+import sms from "../../assets/imgs/sms.png";
 import ProjectCard from "../../components/nav/ProjectCard";
 import "./project.css";
 import AOS from "aos";
@@ -102,6 +103,15 @@ const projectsData = [
     ),
     url: "https://free-commerce-api.vercel.app/",
     git: false,
+  },
+  {
+    id: 8,
+    title: "Training School Website",
+    image: (
+      <img src={sms} alt="" className="w-100 shadow-lg h-auto rounded-[8px]" />
+    ),
+    url: "https://hola-dora-school.vercel.app/view",
+    git: "https://github.com/MgHtetMyatAung/school-sms",
   },
 ];
 
