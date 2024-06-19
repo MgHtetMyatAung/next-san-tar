@@ -25,7 +25,7 @@ const About = () => {
             <span className="font-bold text-[19px] text-black">
               Htet Myat Aung
             </span>{" "}
-            . I am a frontend developer located in Myanmar and I have been
+            . I am a software developer located in Myanmar and I have been
             studying web design since 2019. <br />
             <span className=" opacity-0">hello par</span> I'm open to Job
             opportunities where I can contribute, learn and grow. If you have a
